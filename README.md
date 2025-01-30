@@ -1,5 +1,6 @@
 
 # Kyverno
+![image](https://github.com/user-attachments/assets/5b9aefb4-ae67-4db9-a800-8dfeb7ddc8e9)
 
 Kyverno (Greek for “govern”) is a cloud native policy engine. It allows platform engineers to automate security, compliance, and best practices validation and deliver secure self-service to application teams. The Kyverno project provides a comprehensive set of tools to manage the complete Policy-as-Code (PaC) lifecycle for Kubernetes and other cloud native environments. It is a policy engine for Kubernetes that can be used to define, validate, and enforce a wide range of security and operational best practices within Kubernetes resources. It ensures compliance with security policies, operational practices, and Kubernetes best practices, especially in complex, large-scale environments where manual enforcement would be impractical.
 
@@ -21,7 +22,7 @@ Kyverno (Greek for “govern”) is a cloud native policy engine. It allows plat
 
 ## Kyverno Architecture
 
-#![image](https://github.com/user-attachments/assets/f88d8f60-3878-4e17-9feb-062a648999ba)
+![image](https://github.com/user-attachments/assets/f88d8f60-3878-4e17-9feb-062a648999ba)
 
 ## Kyverno Workflow
 
