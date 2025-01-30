@@ -167,6 +167,7 @@ spec:
 You will see an error message indicating that the deployment was blocked because it lacked the required team label.
 
 Fix the deployment add the required label and try again.
+
 proper_label_deploy.yaml
 
 ```bash
