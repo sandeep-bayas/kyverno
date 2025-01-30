@@ -5,7 +5,7 @@
 Kyverno (Greek for “govern”) is a cloud native policy engine. It allows platform engineers to automate security, compliance, and best practices validation and deliver secure self-service to application teams. The Kyverno project provides a comprehensive set of tools to manage the complete Policy-as-Code (PaC) lifecycle for Kubernetes and other cloud native environments. It is a policy engine for Kubernetes that can be used to define, validate, and enforce a wide range of security and operational best practices within Kubernetes resources. It ensures compliance with security policies, operational practices, and Kubernetes best practices, especially in complex, large-scale environments where manual enforcement would be impractical.
 
 
-## Key Features
+## Key Features:
 
 - **Policy Enforcement**: Kyverno allows users to create policies to enforce security best practices, such as ensuring that only approved images are used in container deployments or that certain labels are applied to resources.
 
@@ -20,7 +20,7 @@ Kyverno (Greek for “govern”) is a cloud native policy engine. It allows plat
 - **Native Kubernetes Integration**: Kyverno is natively integrated with Kubernetes, utilizing the Kubernetes API server to operate, making it a seamless addition to a Kubernetes-based environment.
 
 
-## Kyverno Architecture
+## Kyverno Architecture:
 
 ![image](https://github.com/user-attachments/assets/f88d8f60-3878-4e17-9feb-062a648999ba)
 
@@ -37,11 +37,11 @@ Kyverno (Greek for “govern”) is a cloud native policy engine. It allows plat
 **Validating Admission**: Kyverno can validate the resource to ensure it meets policy requirements.
 
 **Admission Review**: An admission controller reviews the resource, applying any final policies before the resource is admitted to the cluster. Kyverno effectively validate, mutate, and generate resources, ensuring that all admitted resources comply with organizational policies.
-## Install Kyverno
+## Install Kyverno:
 
 Kyverno provides multiple methods for installation: Helm and YAML manifest. When installing in a production environment, Helm is the recommended and most flexible method as it offers convenient configuration options to satisfy a wide range of customizations. Regardless of the method, Kyverno must always be installed in a dedicated Namespace; it must not be co-located with other applications in existing Namespaces including system namespaces such as kube-system. The Kyverno Namespace should also not be used for deployment of other, unrelated applications and services. Below is the compatibility matrix and steps to install Keyverno in kubernetes cluster.
 
-## Compatibility Matrix
+## Compatibility Matrix:
 
 | Kyverno Version             | Kubernetes Min                    | Kubernetes Max                    |
 |-----------------------------|-----------------------------------|----------------------------------|
@@ -64,7 +64,7 @@ Kyverno provides multiple methods for installation: Helm and YAML manifest. When
 •	kubectl get clusterpolicy
 
 
-## Use Cases for Kyverno
+## Use Cases for Kyverno:
 
  ### 1. Validation:
 Validation is Kyverno’s most straightforward use case. It involves categorizing resources into two outcomes: compliant or non-compliant. Compliant resources proceed to deployment, while non-compliant resources are blocked.
@@ -372,7 +372,7 @@ kubectl delete -f validation_policy.yaml
 
 
 
-## Kyverno-Pricing
+## Kyverno-Pricing:
 
 | Plan			              | Price		                      | Features	                     |
 |-----------------------------|-----------------------------------|----------------------------------|
@@ -386,7 +386,7 @@ kubectl delete -f validation_policy.yaml
 |							  |									  | Adapters for Enterprise Integrations|
 |							  |									  | Training and services available	 |
 
-## Additional Resources
+## Additional Resources:
 
 Kyverno Documentation – [Click Here](https://kyverno.io/docs/)
 
