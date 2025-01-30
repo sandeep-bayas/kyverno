@@ -21,14 +21,8 @@ Kyverno (Greek for “govern”) is a cloud native policy engine. It allows plat
 
 ## Kyverno Architecture
 
-#
-#
-#
-#
-#
-#
-#
-#
+#![image](https://github.com/user-attachments/assets/f88d8f60-3878-4e17-9feb-062a648999ba)
+
 ## Kyverno Workflow
 
 **API Request**: An API request enters the Kubernetes system.
