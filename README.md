@@ -66,7 +66,7 @@ Kyverno provides multiple methods for installation: Helm and YAML manifest. When
 
 ## Use Cases for Kyverno:
 
- ### 1. Validation:
+ ### 1. Validation
 Validation is Kyverno’s most straightforward use case. It involves categorizing resources into two outcomes: compliant or non-compliant. Compliant resources proceed to deployment, while non-compliant resources are blocked.
 
 ### 2. Mutation
